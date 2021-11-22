@@ -1,9 +1,16 @@
 # DSND_CNN_Dog_Detector
 For Udacity Data Science Nanodegree
 
+[//]: # (Image References)
+
+[image1]: ./images/sample_dog_output.png "Sample Output"
+[image2]: ./images/vgg16_model.png "VGG-16 Model Keras Layers"
+[image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
+
+
 ### Project Overview
 
-![Sample Output](https://github.com/khiara/DSND_CNN_Dog_Detector/blob/master/images/sample_dog_output.png)
+![Sample Output][image1]
 
 ## Table of Contents
   1. [Installation](#1--installation)
