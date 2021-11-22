@@ -3,7 +3,7 @@ For Udacity Data Science Nanodegree
 
 ### Project Overview
 
-![Sample Output](https://github.com/khiara/DSND_CNN_Dog_Detector/tree/main/images/sample_dog_output.png)
+![Sample Output](https://github.com/khiara/DSND_CNN_Dog_Detector/blob/master/images/sample_dog_output.png)
 
 ## Table of Contents
   1. [Installation](#1--installation)
