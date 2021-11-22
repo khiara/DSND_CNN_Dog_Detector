@@ -8,18 +8,18 @@ For Udacity Data Science Nanodegree
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
 
 
-### Project Overview
-
-![Sample Output][image1]
-
-## Table of Contents
-  1. [Installation](#1--installation)
-  2. [Project Motivation](#2--project-motivation)
+### Table of Contents
+  1. [Project Overview](#1--project-overview)
+  2. [Installation](#2--installation)
   3. [File Descriptions](#3--file-descriptions)
   4. [Results](#4--results)
   5. [Licensing, Authors, and Acknowledgments](#5--licensing-authors-and-acknowledgments)
 
-## 1. Installation
+## 1. Project Overview
+
+![Sample Output][image1]
+
+## 2. Installation
 1. Clone the repository and navigate to the downloaded folder.
 ```	
 git clone https://github.com/khiara/DSND_CNN_Dog_Detector.git
@@ -35,9 +35,6 @@ cd dog-project
 * [ResNet-50 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogResnet50Data.npz)
 * [Inception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz)
 * [Xception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogXceptionData.npz)
-
-## 2. Project Motivation
-This project is part of the Udacity Data Science Nanodegree Program. A
 
 ## 3. File Description
 
