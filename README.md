@@ -43,7 +43,7 @@ cd dog-project
 * [Inception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz)
 * [Xception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogXceptionData.npz)
 
-5. Code to use on a local machine or with AWS is located in the [requirements folder](https://github.com/khiara/DSND_CNN_Dog_Detector/tree/main/requirements). List of dependencies is in [requirements.txt](https://github.com/khiara/DSND_CNN_Dog_Detector/blob/main/requirements/requirements.txt).
+5. Code to use on a local machine or with AWS is located in the [requirements folder](https://github.com/khiara/DSND_CNN_Dog_Detector/tree/main/requirements). List of dependencies is in [requirements.txt](https://github.com/khiara/DSND_CNN_Dog_Detector/blob/main/requirements/requirements.txt) or [requirements-gpu.txt](https://github.com/khiara/DSND_CNN_Dog_Detector/blob/main/requirements/requirements-gpu.txt).
 
 6. Navigate to the main dog-project directory, open dog_app.ipynb and follow the instructions to run the cells.
 
@@ -52,6 +52,7 @@ cd dog-project
 
 * [haarcascades](https://github.com/khiara/DSND_CNN_Dog_Detector/tree/main/haarcascades) -- Folder containing OpenCV's Haar features based Cascading Classifier for human face detection
 * [images](https://github.com/khiara/DSND_CNN_Dog_Detector/tree/main/images) -- Folder containing sample images for notebook instructions
+* [requirements](https://github.com/khiara/DSND_CNN_Dog_Detector/tree/main/requirements) -- Folder containing code for running locally or on AWS.
 * [extract_bottleneck_features.py](https://github.com/khiara/DSND_CNN_Dog_Detector/blob/main/extract_bottleneck_features.py) -- Functions to extract bottleneck features (code provided by Udacity)
 * [dog_app.ipynb](https://github.com/khiara/DSND_CNN_Dog_Detector/blob/main/dog_app.ipynb) -- The dog breed classifier notebook
 
