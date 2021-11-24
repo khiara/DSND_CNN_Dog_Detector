@@ -4,8 +4,9 @@ For Udacity Data Science Nanodegree
 [//]: # (Image References)
 
 [image1]: ./images/sample_dog_output.png "Sample Output"
-[image2]: ./images/vgg16_model.png "VGG-16 Model Keras Layers"
-[image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
+[image2]: ./images/success_dog.PNG "Correct id"
+[image3]: ./images/fail_dog.PNG "Incorrect id"
+[image4]: ./images/Afghan_Faye.PNG "Human"
 
 
 ### Table of Contents
@@ -65,7 +66,13 @@ Dependencies
 
 
 ## 4. Results
-The initial CNN created from scratch did not perform very well. A model using Xception bottleneck features for transfer learning improved performance significantly, but still produced errors on unseen images.
+The initial CNN created from scratch did not perform very well, with test accuracy of 8.97%. A model using Xception bottleneck features for transfer learning improved performance significantly, with test accuracy of 82.41%, but was much better identifying images from the provided files than unseen, user-provided images.
+
+![Correct id][image2]                 ![Incorrect id][image3]  
+
+
+![Human][image4]
+
 
 A full write up of the findings and my analysis can be found in a Medium post [here](https://medium.com/@k.chinn/             ).
 
