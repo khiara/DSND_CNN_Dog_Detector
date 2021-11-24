@@ -17,7 +17,7 @@ For Udacity Data Science Nanodegree
   5. [Licensing, Authors, and Acknowledgments](#5--licensing-authors-and-acknowledgments)
 
 ## 1. Project Overview
-The goal of this project was to build a dog breed classifier which takes a user-supplied image as input and detects whether the image contains a dog or a human. If a dog is detected, the classifier also returns the breed of dog; if a human is found, the classifier returns what dog breed the person most resembles.
+The goal of this project was to build a dog breed classifier which takes a user-supplied image as input and detects whether the image contains a dog or a human. If a dog is detected, the classifier also returns the breed of dog; if a human is found, the classifier returns what dog breed the person most resembles. If no dog or human is detected, the classifier returns an error.
 
 ![Sample Output][image1]
 
