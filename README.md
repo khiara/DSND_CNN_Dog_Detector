@@ -41,7 +41,7 @@ cd dog-project
 * [Inception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz)
 * [Xception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogXceptionData.npz)
 
-5. Open the [dog_app notebook](https://github.com/khiara/DSND_CNN_Dog_Detector/blob/main/dog_app.ipynb) and follow the instructions to run the cells.
+5. Navigate to the main dog-project directory, open dog_app.ipynb and follow the instructions to run the cells.
 
 Dependencies
 * Python v3.*
@@ -65,6 +65,8 @@ Dependencies
 
 
 ## 4. Results
+The initial CNN created from scratch did not perform very well. A model using Xception bottleneck features for transfer learning improved performance significantly, but still produced errors on unseen images.
+
 A full write up of the findings and my analysis can be found in a Medium post [here](https://medium.com/@k.chinn/             ).
 
 ## 5. Licensing, Authors, and Acknowledgments
