@@ -24,14 +24,15 @@ The goal of this project was to build a dog breed classifier which takes a user-
 The classifier uses a Convolutional Neural Network (CNN) and transfer learning to identify dog breeds for the predictions. 
 
 ## 2. Installation
-This was a guided project; the data and some of the base code were provided by Udacity. Due to the size of the files the download locations are linked below rather than included in this repository. 
+This was a guided project; the data, notebook, and base code were provided by Udacity. Building, training, and testing the models was done in a Udacity GPU-enabled classroom workspace. Due to the size of the files the download locations are linked below rather than included in this repository.  
 
-1. Clone the repository and navigate to the downloaded folder.
+Full instructions on how to install the project are [here](https://github.com/udacity/dog-project/blob/master/README.md).
+
+1. Clone the repository and navigate to the downloaded folder. Rename as desired ('dog-project' used here as a standin).
 ```	
 git clone https://github.com/khiara/DSND_CNN_Dog_Detector.git
 cd dog-project
 ```
-
 2. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).  Unzip the folder and place it in the repo, at location `path/to/dog-project/dogImages`. 
 
 3. Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip).  Unzip the folder and place it in the repo, at location `path/to/dog-project/lfw`.  If you are using a Windows machine, you are encouraged to use [7zip](http://www.7-zip.org/) to extract the folder. 
@@ -42,19 +43,9 @@ cd dog-project
 * [Inception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz)
 * [Xception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogXceptionData.npz)
 
-5. Navigate to the main dog-project directory, open dog_app.ipynb and follow the instructions to run the cells.
+5. Code to use on a local machine or with AWS is located in the [requirements folder](https://github.com/khiara/DSND_CNN_Dog_Detector/tree/main/requirements). List of dependencies is in [requirements.txt](https://github.com/khiara/DSND_CNN_Dog_Detector/blob/main/requirements/requirements.txt).
 
-Dependencies
-* Python v3.*
-* sklearn
-* numpy
-* matplotlib
-* pandas
-* keras
-* glob
-* cv2
-* tqdm
-* PIL
+6. Navigate to the main dog-project directory, open dog_app.ipynb and follow the instructions to run the cells.
 
 
 ## 3. File Description
