@@ -41,8 +41,7 @@ cd dog-project
 * [Inception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz)
 * [Xception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogXceptionData.npz)
 
-5. Open the dog_app notebook and follow the instructions to run the cells.
-     `jupyter notebook dog_app.ipynb`
+5. Open the [dog_app notebook](https://github.com/khiara/DSND_CNN_Dog_Detector/blob/main/dog_app.ipynb) and follow the instructions to run the cells.
 
 Dependencies
 * Python v3.*
