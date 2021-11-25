@@ -6,7 +6,8 @@ For Udacity Data Science Nanodegree
 [image1]: ./images/sample_dog_output.png "Sample Output"
 [image2]: ./images/success_dog.PNG "Correct id"
 [image3]: ./images/fail_dog.PNG "Incorrect id"
-[image4]: ./images/Afghan_Faye.PNG "Human"
+[image4]: ./images/success_dog2.PNG "Correct id"
+[image5]: ./images/Afghan_Faye.PNG "Human"
 
 
 ### Table of Contents
@@ -60,10 +61,10 @@ cd dog-project
 ## 4. Results
 The initial CNN created from scratch did not perform very well, with test accuracy of 10.2871%. A model using Xception bottleneck features for transfer learning improved performance significantly, with test accuracy of 82.8947%, but was much better identifying images from the provided files than unseen, user-provided images.
 
-![Correct id][image2]                 ![Incorrect id][image3]  
+![Correct id][image2]                 ![Incorrect id][image3]                 ![Correct id][image4]
 
 
-![Human][image4]
+![Human][image5]
 
 
 A full write up of the findings and my analysis can be found in a Medium post [here](https://medium.com/@k.chinn/             ).
