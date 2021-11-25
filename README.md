@@ -61,17 +61,19 @@ cd dog-project
 ## 4. Results
 The initial CNN created from scratch did not perform very well, with test accuracy of 10.2871%. A model using Xception bottleneck features for transfer learning improved performance significantly, with test accuracy of 82.8947%, but was much better identifying images from the provided files than unseen, user-provided images.
 
+A full write up of the findings and my analysis can be found in a Medium post [here](https://medium.com/@k.chinn/             ).
+
+### Sample images
+
 ![Correct id][image2]     A correctly identified dog from the training set  
 
 ![Incorrect id][image3]    An incorrectly classified user image
 
-![Correct id][image4]     A correctly identified user image (the same dog as in the previous image)
+![Correct id][image4]     A correctly identified user image (same dog as in the previous image)
+
+![Human][image5]    A human image from the provided dataset
 
 
-![Human][image5]
-
-
-A full write up of the findings and my analysis can be found in a Medium post [here](https://medium.com/@k.chinn/             ).
 
 ## 5. Licensing, Authors, and Acknowledgments
 Thanks go to [Udacity's](https://Udacity.com) Data Science Nanodegree Program for the project idea, datasets, and code framework, and to their mentors and community for guidance, tips, and encouragement. 
