@@ -61,7 +61,11 @@ cd dog-project
 ## 4. Results
 The initial CNN created from scratch did not perform very well, with test accuracy of 10.2871%. A model using Xception bottleneck features for transfer learning improved performance significantly, with test accuracy of 82.8947%, but was much better identifying images from the provided files than unseen, user-provided images.
 
-![Correct id][image2]                 ![Incorrect id][image3]                 ![Correct id][image4]
+![Correct id][image2]     A correctly identified dog from the training set  
+
+![Incorrect id][image3]    An incorrectly classified user image
+
+![Correct id][image4]     A correctly identified user image (the same dog as in the previous image)
 
 
 ![Human][image5]
