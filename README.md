@@ -54,8 +54,9 @@ cd dog-project
 * [haarcascades](https://github.com/khiara/DSND_CNN_Dog_Detector/tree/main/haarcascades) -- Folder containing OpenCV's Haar features based Cascading Classifier for human face detection
 * [images](https://github.com/khiara/DSND_CNN_Dog_Detector/tree/main/images) -- Folder containing sample images for notebook instructions
 * [requirements](https://github.com/khiara/DSND_CNN_Dog_Detector/tree/main/requirements) -- Folder containing code for running locally on different systems.
-* [extract_bottleneck_features.py](https://github.com/khiara/DSND_CNN_Dog_Detector/blob/main/extract_bottleneck_features.py) -- Functions to extract bottleneck features (code provided by Udacity)
 * [dog_app.ipynb](https://github.com/khiara/DSND_CNN_Dog_Detector/blob/main/dog_app.ipynb) -- The dog breed classifier notebook
+* [extract_bottleneck_features.py](https://github.com/khiara/DSND_CNN_Dog_Detector/blob/main/extract_bottleneck_features.py) -- Functions to extract bottleneck features (code provided by Udacity)
+* [train_data_visualization.ipynb](https://github.com/khiara/DSND_CNN_Dog_Detector/blob/main/train_data_visualization.ipynb) -- Notebook with data processing and visualizations for blog post
 
 
 ## 4. Results
